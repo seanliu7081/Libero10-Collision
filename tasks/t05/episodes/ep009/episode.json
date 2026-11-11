@@ -1,0 +1,85 @@
+{
+  "artifact_sha256": {
+    "initial_state.npy": "39f9bd7295935ca1e01059d16a4aa28d8634c2256d18e164b0dfb9997985f3aa",
+    "obstacle_asset.json": "5c2b2017967b8744ad137c11cc6acedb9eef9708f7b2249f860fdc9fd892288a",
+    "task.bddl": "31a0dfcfe0f7dd298708c0a7a6fce1d08aa3c4ca8473f42cff910f87c815a5e4"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 9,
+  "initial_observation_sha256": "0325be362288190fecd9b8fd29a2f638323cab5b1bb1e4471b53c41e8cb883e5",
+  "language": "pick up the book and place it in the back compartment of the caddy",
+  "layout": {
+    "black_book_xy": [
+      -0.24,
+      0.18
+    ],
+    "black_book_yaw_delta_deg": 30,
+    "nominal_book_carry_bottom_above_table_m": 0.18,
+    "white_yellow_mug_xy": [
+      -0.08,
+      -0.19
+    ]
+  },
+  "manipulation_targets": [
+    "black_book_1"
+  ],
+  "obstacle": {
+    "asset": "alphabet_soup",
+    "destination": "desk_caddy_1_back_contain_region",
+    "dimensions_m": [
+      0.11937235714085909,
+      0.11807770764885926,
+      0.2134409943399025
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "black_book_1"
+  },
+  "official_task_id": 5,
+  "revision": "t05_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "black_book_1": [
+      -0.23999999793580432,
+      0.1800000001256265,
+      0.8829598430399995,
+      -0.7489712497991811,
+      -5.24096070402585e-18,
+      4.646192239590221e-18,
+      0.6626024954482533
+    ],
+    "collision_obstacle_1": [
+      -0.2503934260008255,
+      0.007322172917166009,
+      0.992673118896927,
+      -0.0033261708261525043,
+      0.0034392255089019867,
+      0.708385569986256,
+      0.7058094590969859
+    ],
+    "white_yellow_mug_1": [
+      -0.08000000002123672,
+      -0.19000000310238674,
+      0.8852270012643118,
+      -0.7071067811012193,
+      -8.931891869352743e-07,
+      -3.6707569522190033e-08,
+      0.7071067812713118
+    ]
+  },
+  "source_bddl_sha256": "07ca32c940d70c065e870452ef9c63e6dfa1d8506e6a86cf9b3763f652ba2d9f",
+  "source_episode_index": 9,
+  "source_states_sha256": "6cd3937ba18d64e72223222af36888d26ea201840415adbc4dae590454d0a5a8",
+  "source_task": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+  "task": "t05",
+  "task_goal": [
+    [
+      "in",
+      "black_book_1",
+      "desk_caddy_1_back_contain_region"
+    ]
+  ]
+}

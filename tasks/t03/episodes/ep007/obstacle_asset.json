@@ -1,0 +1,7 @@
+{
+  "category": "collision_t03_cookies",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "source_asset": "cookies",
+  "uniform_scale": 2.55
+}

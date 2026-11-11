@@ -1,0 +1,7 @@
+{
+  "category": "collision_t03_bbq_sauce",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "source_asset": "bbq_sauce",
+  "uniform_scale": 2.05
+}

@@ -1,0 +1,8 @@
+{
+  "category": "collision_t07_orange_juice",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "method": "uniform_precompile_xml_scale",
+  "source_asset": "orange_juice",
+  "uniform_scale": 1.65
+}

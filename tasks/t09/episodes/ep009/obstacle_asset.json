@@ -1,0 +1,11 @@
+{
+  "category": "collision_t09_alphabet_soup",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "local_scale": [
+    1.6,
+    2.2,
+    1.6
+  ],
+  "source_asset": "alphabet_soup"
+}

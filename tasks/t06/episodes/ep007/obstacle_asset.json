@@ -1,0 +1,11 @@
+{
+  "category": "collision_t06_red_coffee_mug",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "local_scale": [
+    0.96,
+    0.96,
+    1.6
+  ],
+  "source_asset": "red_coffee_mug"
+}

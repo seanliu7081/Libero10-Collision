@@ -1,0 +1,7 @@
+{
+  "category": "collision_t09_salad_dressing",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "source_asset": "salad_dressing",
+  "uniform_scale": 1.55
+}

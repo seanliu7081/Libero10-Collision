@@ -1,0 +1,7 @@
+{
+  "category": "collision_t05_ketchup",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "source_asset": "ketchup",
+  "uniform_scale": 1.55
+}

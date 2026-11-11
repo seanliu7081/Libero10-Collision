@@ -1,0 +1,7 @@
+{
+  "category": "collision_t02_milk",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "source_asset": "milk",
+  "uniform_scale": 1.7
+}

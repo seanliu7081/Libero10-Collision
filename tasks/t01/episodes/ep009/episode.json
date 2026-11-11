@@ -1,0 +1,149 @@
+{
+  "artifact_sha256": {
+    "initial_state.npy": "9ae10b4071fa9684775cb5e1f9769aa01c40b8aeaf0911176a76da19c692fba7",
+    "obstacle_asset.json": "4c2e754da37a9cc07ca6eb27bdbc1f241adc082013053a560992390aeb2aa080",
+    "task.bddl": "b3512c5c29f61ab206c2c296cbfad312cf0523e7c7922fa792c3a5b64d475b13"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 9,
+  "initial_observation_sha256": "a790dc215c83418057fa92e573afc1780ca1d37a72152c30dbe6459eec06e530",
+  "language": "put both the cream cheese box and the butter in the basket",
+  "layout": {
+    "basket_orientation": "preserved from official source state",
+    "basket_xy": [
+      -0.24,
+      0.17
+    ],
+    "butter_xy": [
+      0.09,
+      -0.2
+    ],
+    "butter_yaw_delta_deg": 50,
+    "cream_cheese_xy": [
+      -0.16,
+      -0.14
+    ],
+    "cream_cheese_yaw_delta_deg": -60
+  },
+  "manipulation_targets": [
+    "cream_cheese_1",
+    "butter_1"
+  ],
+  "obstacle": {
+    "asset": "alphabet_soup",
+    "dimensions_m": [
+      0.11945069216681334,
+      0.11759486362113623,
+      0.2133933344020289
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "butter_1"
+  },
+  "official_task_id": 1,
+  "revision": "t01_v3_smaller_obstacles",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "alphabet_soup_1": [
+      -0.3197442453508974,
+      -0.3199614228446501,
+      0.4751701239605255,
+      -0.002346926869237534,
+      0.0023495305242105784,
+      0.7074554602982144,
+      0.7067501279340728
+    ],
+    "basket_1": [
+      -0.23999999999876004,
+      0.1699791001194176,
+      0.43219202665003076,
+      0.70710474966924,
+      -0.0016949908850289134,
+      0.0016949888183496829,
+      0.7071047496757513
+    ],
+    "butter_1": [
+      0.09,
+      -0.2,
+      0.44546992152000003,
+      -0.42261826174069944,
+      -1.416340009031657e-17,
+      3.037350951162955e-17,
+      0.9063077870366499
+    ],
+    "collision_obstacle_1": [
+      -0.018544994172856825,
+      -0.03187125099293983,
+      0.5443053916084694,
+      -0.0034423276799077566,
+      0.0035424359628396505,
+      0.7076303386164794,
+      0.7065655704866454
+    ],
+    "cream_cheese_1": [
+      -0.16,
+      -0.14,
+      0.4456959046807264,
+      0.49999999999999994,
+      6.948876390266213e-17,
+      -3.483568992916202e-17,
+      0.8660254037844387
+    ],
+    "ketchup_1": [
+      -0.440000000736783,
+      -0.2500000006235586,
+      0.5091798430329574,
+      0.4999999998080853,
+      0.5000000002046388,
+      0.49999999709965703,
+      0.5000000028876178
+    ],
+    "milk_1": [
+      -0.3399999999697415,
+      -0.10000000036490198,
+      0.506509843038735,
+      0.4999999990348155,
+      0.5000000009654476,
+      0.4999999992560253,
+      0.5000000007437118
+    ],
+    "orange_juice_1": [
+      -0.32000000003025875,
+      0.34000000036490197,
+      0.5065098430387349,
+      0.5000000009654471,
+      0.4999999990348149,
+      0.5000000007437119,
+      0.4999999992560256
+    ],
+    "tomato_sauce_1": [
+      -0.4397454183695668,
+      0.22003841514508932,
+      0.47516915037869295,
+      -0.00233478019561135,
+      0.0023399881515713114,
+      0.7074530256889011,
+      0.7067526368543018
+    ]
+  },
+  "source_bddl_sha256": "3f552805c7ab34c44debcf38a48b8131d6fee3011dd86c039650b84e0f77d058",
+  "source_episode_index": 9,
+  "source_states_sha256": "f8ac06ea8f43bb328d40cba1e6a9767da2f8f5386fd7ff3f845c64a96bf6d2ce",
+  "source_task": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+  "task": "t01",
+  "task_goal": [
+    [
+      "in",
+      "cream_cheese_1",
+      "basket_1_contain_region"
+    ],
+    [
+      "in",
+      "butter_1",
+      "basket_1_contain_region"
+    ]
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "articulated_targets": [
+    "white_cabinet_1_bottom_level"
+  ],
+  "artifact_sha256": {
+    "initial_state.npy": "b7e614a838fa6b138c0dad9400cc08618e042819279b1eb8913aaf14893b3649",
+    "obstacle_asset.json": "1d4fcbaadd4c9261e9650fced2eb8509e548f6c95556e2171f09399920053c40",
+    "task.bddl": "b88f995ba9fb28323072a612601a808ec35ab92703446f6caa8a6a99ee1755c8"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 8,
+  "initial_observation_sha256": "e910ba24c53225499961e58aba687245630db5eadcf5759ee8622e55d014bf4d",
+  "language": "put the black bowl in the bottom drawer of the cabinet and close it",
+  "layout": {
+    "bowl_staging_xy": [
+      0.011904121294039437,
+      -0.03844842803468913
+    ],
+    "bowl_xy": [
+      -0.29,
+      -0.01
+    ],
+    "bowl_yaw_delta_deg": -60,
+    "fixture_layout": "Original fixed cabinet and wine-rack positions/orientations retained",
+    "nominal_bowl_carry_bottom_above_table_m": 0.1,
+    "wine_bottle_xy": [
+      -0.35,
+      0.18
+    ]
+  },
+  "manipulation_targets": [
+    "akita_black_bowl_1"
+  ],
+  "obstacle": {
+    "asset": "red_coffee_mug",
+    "dimensions_m": [
+      0.11798905467667826,
+      0.0894675769840177,
+      0.21228550748836472
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "akita_black_bowl_1"
+  },
+  "official_task_id": 3,
+  "revision": "t03_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "akita_black_bowl_1": [
+      -0.2900000367530994,
+      -0.010000087750281746,
+      0.8984041494757062,
+      0.9659258259133412,
+      -2.2369206270647564e-05,
+      1.676596743178662e-05,
+      0.2588190449950522
+    ],
+    "collision_obstacle_1": [
+      -0.15930293511554883,
+      -0.07755922742956163,
+      0.9029340320507081,
+      -0.9999999999999283,
+      -3.6106050047897214e-07,
+      1.193168969942109e-07,
+      -4.362858555914822e-09
+    ],
+    "wine_bottle_1": [
+      -0.349999970607647,
+      0.17999999816560233,
+      0.8988609542025706,
+      3.639078865053025e-11,
+      -1.2452347847592319e-05,
+      7.784416993556859e-07,
+      0.9999999999221669
+    ]
+  },
+  "source_bddl_sha256": "5255fe54d7f25fad4dee8fa30a30033d8cb908f1708d953c91ab609264fb4fb8",
+  "source_episode_index": 8,
+  "source_states_sha256": "e98ded151f64a036c74c872336dd09b968c379f3c9db7bc333aba37e7c235b86",
+  "source_task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+  "task": "t03",
+  "task_goal": [
+    [
+      "close",
+      "white_cabinet_1_bottom_region"
+    ],
+    [
+      "in",
+      "akita_black_bowl_1",
+      "white_cabinet_1_bottom_region"
+    ]
+  ]
+}

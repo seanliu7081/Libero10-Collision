@@ -1,0 +1,131 @@
+{
+  "artifact_sha256": {
+    "initial_state.npy": "c883bd27b9fed8cd07f6dc71cb8775f73f4f961c680b432db6046b7f2d318863",
+    "obstacle_asset.json": "7bc5d9859e5a3e0ccbae6e8e2e7553e931e9e2405e8725dbf605b58836db2bb6",
+    "task.bddl": "55a69d04526368a77ffa3ef28cc207c2731f6eda687ce3992f5184d3a2cdcfa3"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 6,
+  "initial_observation_sha256": "e0a1912e5d7c7a14a7b5432bf1d5538c2f83c17eb13a7d0e50c8d4aebe229a2f",
+  "language": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+  "layout": {
+    "nominal_mug_carry_bottom_above_table_m": 0.12,
+    "plate_1_xy": [
+      -0.03,
+      -0.23
+    ],
+    "plate_2_xy": [
+      -0.03,
+      0.23
+    ],
+    "porcelain_mug_xy": [
+      -0.27,
+      -0.075
+    ],
+    "porcelain_mug_yaw_delta_deg": 0,
+    "red_coffee_mug_xy": [
+      -0.4,
+      0.26
+    ],
+    "white_yellow_mug_xy": [
+      -0.17,
+      0.1
+    ],
+    "white_yellow_mug_yaw_delta_deg": 0
+  },
+  "manipulation_targets": [
+    "porcelain_mug_1",
+    "white_yellow_mug_1"
+  ],
+  "obstacle": {
+    "asset": "macaroni_and_cheese",
+    "destination": "plate_1",
+    "dimensions_m": [
+      0.16024599999999994,
+      0.04833599999999999,
+      0.2210459999999999
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "porcelain_mug_1"
+  },
+  "official_task_id": 4,
+  "revision": "t04_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "collision_obstacle_1": [
+      -0.1936136444164049,
+      -0.1779017719995947,
+      0.5472829215199999,
+      5.551115123125783e-17,
+      5.551115123125783e-17,
+      0.7071067811865475,
+      0.7071067811865475
+    ],
+    "plate_1": [
+      -0.029999997681780275,
+      -0.23000000638420834,
+      0.43927283236836456,
+      0.7071067812054661,
+      1.1052386652000393e-06,
+      -6.78710813378832e-07,
+      0.7071067811664399
+    ],
+    "plate_2": [
+      -0.02999999768178028,
+      0.22999999361579168,
+      0.43927283236836456,
+      0.7071067812054661,
+      1.1052386652041381e-06,
+      -6.78710813378039e-07,
+      0.7071067811664399
+    ],
+    "porcelain_mug_1": [
+      -0.26999999970181077,
+      -0.07499999741818082,
+      0.4343699608590306,
+      -0.7071067814414014,
+      2.1398186949176704e-07,
+      1.266172570726632e-07,
+      0.707106780931651
+    ],
+    "red_coffee_mug_1": [
+      -0.4000000021574116,
+      0.25999999606845375,
+      0.4385990213862531,
+      -0.7071067813786259,
+      -5.101356216438938e-07,
+      6.141477909910888e-07,
+      0.7071067809940182
+    ],
+    "white_yellow_mug_1": [
+      -0.1700000000212368,
+      0.0999999968976133,
+      0.43685700126431204,
+      -0.7071067811012193,
+      -8.931891871743596e-07,
+      -3.670756961676854e-08,
+      0.7071067812713118
+    ]
+  },
+  "source_bddl_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+  "source_episode_index": 6,
+  "source_states_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+  "source_task": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+  "task": "t04",
+  "task_goal": [
+    [
+      "on",
+      "porcelain_mug_1",
+      "plate_1"
+    ],
+    [
+      "on",
+      "white_yellow_mug_1",
+      "plate_2"
+    ]
+  ]
+}

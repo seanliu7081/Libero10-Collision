@@ -1,0 +1,7 @@
+{
+  "category": "collision_t04_orange_juice",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "source_asset": "orange_juice",
+  "uniform_scale": 1.65
+}

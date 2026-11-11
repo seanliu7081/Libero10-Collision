@@ -1,0 +1,123 @@
+{
+  "artifact_sha256": {
+    "initial_state.npy": "6132484b785b94169463fb89f91198dc0dfb3b503cee5b489840fd8e920b3163",
+    "obstacle_asset.json": "5ca16432610e234e4a810e2e03e49605aa7eb99a86f722a3865fe076b060cdaa",
+    "task.bddl": "d3a9a8e958f3caf88343e53a030761499eeb134119e962de3cbf722b23dacdba"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 3,
+  "initial_observation_sha256": "327cad8a83a05a917b45eebebd50c69d329356967f70295567d70319b45488a8",
+  "language": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+  "layout": {
+    "chocolate_pudding_xy": [
+      -0.15,
+      0.13
+    ],
+    "chocolate_pudding_yaw_delta_deg": 0,
+    "fixed_right_region_xyz": [
+      0.15,
+      0.1,
+      0.41
+    ],
+    "nominal_mug_carry_bottom_above_table_m": 0.12,
+    "plate_1_xy": [
+      0.115,
+      0.0
+    ],
+    "porcelain_mug_xy": [
+      -0.17,
+      -0.14
+    ],
+    "porcelain_mug_yaw_delta_deg": 0,
+    "red_coffee_mug_xy": [
+      -0.4,
+      0.26
+    ]
+  },
+  "manipulation_targets": [
+    "porcelain_mug_1",
+    "chocolate_pudding_1"
+  ],
+  "obstacle": {
+    "asset": "ketchup",
+    "destination": "living_room_table_plate_right_region",
+    "dimensions_m": [
+      0.08444932076619291,
+      0.10118304395468516,
+      0.2256955004274861
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "chocolate_pudding_1"
+  },
+  "official_task_id": 6,
+  "revision": "t06_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "chocolate_pudding_1": [
+      -0.15000000025416,
+      0.13,
+      0.44983992152,
+      8.601633285663463e-25,
+      4.989417690350896e-17,
+      1.0998385216531453e-17,
+      1.0
+    ],
+    "collision_obstacle_1": [
+      -0.006000000230862471,
+      0.11559999934442564,
+      0.5490108430329576,
+      0.37992819606348704,
+      0.3799281971214912,
+      0.5963678087328917,
+      0.5963678123231385
+    ],
+    "plate_1": [
+      0.11500000231821966,
+      -6.384208476877149e-09,
+      0.43927283236836456,
+      0.7071067812054661,
+      1.1052386651968187e-06,
+      -6.787108133792628e-07,
+      0.7071067811664399
+    ],
+    "porcelain_mug_1": [
+      -0.16999999970181104,
+      -0.1399999974181808,
+      0.4343699608590306,
+      -0.7071067814414014,
+      2.1398186950083504e-07,
+      1.266172570652441e-07,
+      0.707106780931651
+    ],
+    "red_coffee_mug_1": [
+      -0.4000000021574116,
+      0.25999999606845375,
+      0.4385990213862531,
+      -0.7071067813786259,
+      -5.101356216788968e-07,
+      6.141477909532824e-07,
+      0.7071067809940182
+    ]
+  },
+  "source_bddl_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+  "source_episode_index": 3,
+  "source_states_sha256": "6e811394c4ff9a43ae23515d8512e9b657c04344b94dd5baed121b595490514f",
+  "source_task": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+  "task": "t06",
+  "task_goal": [
+    [
+      "on",
+      "porcelain_mug_1",
+      "plate_1"
+    ],
+    [
+      "on",
+      "chocolate_pudding_1",
+      "living_room_table_plate_right_region"
+    ]
+  ]
+}

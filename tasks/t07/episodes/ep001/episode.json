@@ -1,0 +1,122 @@
+{
+  "artifact_sha256": {
+    "initial_state.npy": "3943fef01700eac366f428a382fd527b61095c983ff1374fd8c76a8a60f37e24",
+    "obstacle_asset.json": "f0ac1f66dbd8ea957f41ad602563caa672acde45a4acf608ee2bb82067b1e311",
+    "task.bddl": "c393cda2a6a0480f3b2825eb1ae4449f643a7c0fbab7c9df8d18fd6865089b0b"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 1,
+  "initial_observation_sha256": "41d27ee12bab0ad429ecd7f2cbccf60d9a27fba2701374203480d44f5f4bb3a2",
+  "language": "put both the alphabet soup and the cream cheese box in the basket",
+  "layout": {
+    "alphabet_soup_xy": [
+      -0.12,
+      -0.18
+    ],
+    "alphabet_soup_yaw_delta_deg": 25,
+    "basket_orientation": "preserved from official source state",
+    "basket_xy": [
+      -0.16,
+      0.16
+    ],
+    "cream_cheese_xy": [
+      0.08,
+      -0.14
+    ],
+    "cream_cheese_yaw_delta_deg": -20
+  },
+  "manipulation_targets": [
+    "alphabet_soup_1",
+    "cream_cheese_1"
+  ],
+  "obstacle": {
+    "asset": "bbq_sauce",
+    "dimensions_m": [
+      0.08223208491103023,
+      0.10838230789287112,
+      0.21955499999999994
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "cream_cheese_1"
+  },
+  "official_task_id": 7,
+  "revision": "t07_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "alphabet_soup_1": [
+      -0.11978451098028457,
+      -0.1798569506384691,
+      0.4751701239605255,
+      -0.15526002017219453,
+      -0.1508275494359551,
+      0.6911944725839374,
+      0.6894893599880186
+    ],
+    "basket_1": [
+      -0.15999999999876005,
+      0.1599791001194176,
+      0.43219202665003076,
+      0.70710474966924,
+      -0.0016949908850289136,
+      0.0016949888183496829,
+      0.7071047496757513
+    ],
+    "collision_obstacle_1": [
+      -0.030399999999999996,
+      -0.001999999999999974,
+      0.54877192152,
+      0.6087614290087205,
+      2.369438084506305e-18,
+      3.0879118311048843e-18,
+      0.7933533402912352
+    ],
+    "cream_cheese_1": [
+      0.08,
+      -0.14,
+      0.44569592152000004,
+      0.17364817766693033,
+      3.642241110318535e-18,
+      2.0656175791613747e-17,
+      0.984807753012208
+    ],
+    "ketchup_1": [
+      -0.420000000736783,
+      0.2599999993764414,
+      0.5091798430329574,
+      0.4999999998080853,
+      0.5000000002046388,
+      0.49999999709965703,
+      0.5000000028876178
+    ],
+    "tomato_sauce_1": [
+      -0.33974541836956684,
+      -0.2999615848549104,
+      0.47516915037869295,
+      -0.0023347801956113477,
+      0.002339988151571382,
+      0.7074530256889011,
+      0.7067526368543018
+    ]
+  },
+  "source_bddl_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+  "source_episode_index": 1,
+  "source_states_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+  "source_task": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+  "task": "t07",
+  "task_goal": [
+    [
+      "in",
+      "alphabet_soup_1",
+      "basket_1_contain_region"
+    ],
+    [
+      "in",
+      "cream_cheese_1",
+      "basket_1_contain_region"
+    ]
+  ]
+}

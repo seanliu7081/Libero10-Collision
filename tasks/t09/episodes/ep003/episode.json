@@ -1,0 +1,96 @@
+{
+  "articulated_targets": [
+    "microwave_1_microjoint"
+  ],
+  "artifact_sha256": {
+    "initial_state.npy": "bdf285519df5c1cb0c1106d6ce88586bf103a304597673e2671e45d30711339e",
+    "obstacle_asset.json": "73de54dcc1815acf59b3ae0e592dbd05b95fe95529ccd3b6da72ef9756476832",
+    "task.bddl": "a2c401b95de47e5b0510a3ad50ec1ae7c62c01d4a7a01463b7774e24a4c4806d"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 3,
+  "initial_observation_sha256": "3fc30713012548ba826f818018bc84e286de903f12ff6e8a623ebad25bf8bb91",
+  "language": "put the yellow and white mug in the microwave and close it",
+  "layout": {
+    "fixture_layout": "Original fixed microwave position/orientation retained",
+    "mug_staging_xy": [
+      0.008624121256192475,
+      0.13371999902437656
+    ],
+    "mug_xy": [
+      -0.11,
+      -0.255
+    ],
+    "mug_yaw_delta_deg": 0,
+    "nominal_mug_carry_bottom_above_table_m": 0.08,
+    "porcelain_mug_xy": [
+      -0.25,
+      -0.26
+    ]
+  },
+  "manipulation_targets": [
+    "white_yellow_mug_1"
+  ],
+  "obstacle": {
+    "asset": "ketchup",
+    "dimensions_m": [
+      0.07082849049018632,
+      0.08486329442091904,
+      0.18929307930226857
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "white_yellow_mug_1"
+  },
+  "official_task_id": 9,
+  "revision": "t09_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "collision_obstacle_1": [
+      -0.012243177855541803,
+      -0.157356158622113,
+      0.9941169528914137,
+      0.3799280801835305,
+      0.3799283130084665,
+      0.5963674132147405,
+      0.5963682078365311
+    ],
+    "porcelain_mug_1": [
+      -0.2500000549346042,
+      -0.26000021227398634,
+      0.8976027535358136,
+      -0.7071067808494023,
+      3.964003949755108e-05,
+      2.345428812534803e-05,
+      0.7071067800236103
+    ],
+    "white_yellow_mug_1": [
+      -0.1099999993268505,
+      -0.2550000071234527,
+      0.900091153075966,
+      -0.7071067807889143,
+      -1.5303821902657372e-05,
+      -2.2247653381046366e-05,
+      0.7071067810685832
+    ]
+  },
+  "source_bddl_sha256": "456d145f92be049f445fc77673dc583d9d17ea7afe92f6ffcb2fd1fa5565d420",
+  "source_episode_index": 3,
+  "source_states_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+  "source_task": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+  "task": "t09",
+  "task_goal": [
+    [
+      "in",
+      "white_yellow_mug_1",
+      "microwave_1_heating_region"
+    ],
+    [
+      "close",
+      "microwave_1"
+    ]
+  ]
+}

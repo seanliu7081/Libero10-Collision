@@ -1,0 +1,24 @@
+{
+  "external_dependency": "The matching LIBERO checkout and its native assets are required; override the default checkout path with LIBERO_ROOT before importing the package.",
+  "libero_git_note": "Vendored source directory has no git metadata",
+  "libero_git_revision": null,
+  "libero_root": "/workspace/heading_flow_pub/third_party/LIBERO",
+  "packages": {
+    "Pillow": "12.3.0",
+    "bddl": "3.6.0",
+    "imageio": "2.37.2",
+    "mujoco": "3.2.6",
+    "numpy": "1.26.4",
+    "robosuite": "1.4.1",
+    "torch": "2.10.0"
+  },
+  "python_executable": "/workspace/venvs/libero-plus/bin/python",
+  "python_version": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:42:31) [GCC 14.4.0]",
+  "simulator": {
+    "control_freq_hz": 20,
+    "controller": "OSC_POSE",
+    "render_size": 512,
+    "robot": "Panda",
+    "settle_steps": 10
+  }
+}

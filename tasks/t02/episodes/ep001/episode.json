@@ -1,0 +1,91 @@
+{
+  "articulated_targets": [
+    "flat_stove_1_button"
+  ],
+  "artifact_sha256": {
+    "initial_state.npy": "581ac009013b76f1bad625ccdf332161caecd3929a8e59fbf1aa879c1fa1727e",
+    "obstacle_asset.json": "a45ac2ae6d28fa033491fbbf2500f0c22e673402d9d22bf733656b1cfe35569c",
+    "task.bddl": "5161b4287142ba150bf916b896e5e56c5d712a24c535ac4068058dfac52e6066"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 1,
+  "initial_observation_sha256": "5b1414abbeabd0edfe592174c7f31ddac55d6eeedb3d4ee18008e19072d0785c",
+  "language": "turn on the stove and put the moka pot on it",
+  "layout": {
+    "fixture_layout": "original source fixture geometry and articulation retained",
+    "frypan_xy": [
+      -0.18,
+      -0.2
+    ],
+    "moka_pot_xy": [
+      0.03,
+      -0.14
+    ],
+    "moka_pot_yaw_delta_deg": -15
+  },
+  "manipulation_targets": [
+    "moka_pot_1"
+  ],
+  "obstacle": {
+    "asset": "bbq_sauce",
+    "dimensions_m": [
+      0.08223208491103023,
+      0.10838230789287112,
+      0.21955499999999983
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "moka_pot_1"
+  },
+  "official_task_id": 2,
+  "revision": "t02_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "chefmate_8_frypan_1": [
+      -0.18000000738798363,
+      -0.20000019942870484,
+      0.8991709579889176,
+      0.7071067764271064,
+      -7.829674178088373e-05,
+      8.432519671085929e-05,
+      0.7071067765831052
+    ],
+    "collision_obstacle_1": [
+      -0.005151084435025918,
+      0.01919439893725422,
+      1.0119829541987735,
+      0.6087614290087205,
+      1.2388109654304588e-17,
+      1.6021178690929747e-17,
+      0.7933533402912352
+    ],
+    "moka_pot_1": [
+      0.029999868900108237,
+      -0.1400005949754692,
+      0.9661058531607807,
+      0.13052619221280412,
+      -3.9648919725719967e-07,
+      -4.597213134926175e-06,
+      0.9914448613640271
+    ]
+  },
+  "source_bddl_sha256": "491835cc2eb6956f7ce3d1ee4e266377116168fe453e6529fe105e3b0333635d",
+  "source_episode_index": 1,
+  "source_states_sha256": "02a8401f8d59f5447fc8c5a16f4c158dd8c426c3eaed6779927a2a53e9abf3c5",
+  "source_task": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+  "task": "t02",
+  "task_goal": [
+    [
+      "turnon",
+      "flat_stove_1"
+    ],
+    [
+      "on",
+      "moka_pot_1",
+      "flat_stove_1_cook_region"
+    ]
+  ]
+}

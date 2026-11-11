@@ -1,0 +1,149 @@
+{
+  "artifact_sha256": {
+    "initial_state.npy": "55c76b2250cfcffd9bc1599b9d07e9f274b9661a3cc8cfb473925e3f813af94d",
+    "obstacle_asset.json": "16b5ec56c635eb088e41a7106440acb045102a2b64bb77612a648176146674ce",
+    "task.bddl": "ddeffce05cb4c056e65773b9a96500d12905e3c696f9ce7ca5aa2e49b6ccbcfd"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 1,
+  "initial_observation_sha256": "04784bd5d3d6e35e55f7b4b214544bcba5e82dbfe2db479011e433c0c9e178e6",
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "layout": {
+    "alphabet_soup_xy": [
+      -0.12,
+      -0.18
+    ],
+    "alphabet_soup_yaw_delta_deg": 25,
+    "basket_orientation": "preserved from official source state",
+    "basket_xy": [
+      -0.16,
+      0.16
+    ],
+    "tomato_sauce_xy": [
+      0.08,
+      -0.14
+    ],
+    "tomato_sauce_yaw_delta_deg": -20
+  },
+  "manipulation_targets": [
+    "alphabet_soup_1",
+    "tomato_sauce_1"
+  ],
+  "obstacle": {
+    "asset": "bbq_sauce",
+    "dimensions_m": [
+      0.08223208491103023,
+      0.10838230789287112,
+      0.21955499999999994
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "tomato_sauce_1"
+  },
+  "official_task_id": 0,
+  "revision": "t00_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "alphabet_soup_1": [
+      -0.11978451098028454,
+      -0.17985695063846907,
+      0.4751701239605255,
+      -0.15526002017219453,
+      -0.1508275494359551,
+      0.6911944725839374,
+      0.6894893599880186
+    ],
+    "basket_1": [
+      -0.15999999999876005,
+      0.1599791001194176,
+      0.43219202665003076,
+      0.70710474966924,
+      -0.0016949908850289158,
+      0.0016949888183496807,
+      0.7071047496757513
+    ],
+    "butter_1": [
+      -0.44,
+      0.22,
+      0.44546992152000003,
+      2.001521732579038e-34,
+      -2.5367143125335044e-19,
+      2.0511620245149506e-17,
+      1.0
+    ],
+    "collision_obstacle_1": [
+      -0.030399999999999996,
+      -0.001999999999999974,
+      0.54877192152,
+      0.6087614290087205,
+      2.807764211928091e-18,
+      3.6591495619401824e-18,
+      0.7933533402912352
+    ],
+    "cream_cheese_1": [
+      -0.32,
+      -0.32,
+      0.44569592152000004,
+      3.6890810799003195e-34,
+      1.0434720904438461e-19,
+      1.7594725882413728e-17,
+      1.0
+    ],
+    "ketchup_1": [
+      -0.440000000736783,
+      -0.2500000006235586,
+      0.5091798430329574,
+      0.4999999998080853,
+      0.5000000002046388,
+      0.49999999709965703,
+      0.5000000028876178
+    ],
+    "milk_1": [
+      -0.3399999999697415,
+      -0.10000000036490198,
+      0.506509843038735,
+      0.4999999990348155,
+      0.5000000009654476,
+      0.4999999992560253,
+      0.5000000007437118
+    ],
+    "orange_juice_1": [
+      -0.32000000003025875,
+      0.34000000036490197,
+      0.5065098430387349,
+      0.5000000009654471,
+      0.4999999990348149,
+      0.5000000007437119,
+      0.4999999992560256
+    ],
+    "tomato_sauce_1": [
+      0.08025236723293504,
+      -0.14005097361736202,
+      0.4751691503786929,
+      0.12042699781282905,
+      0.12515236716945707,
+      0.6962988899120917,
+      0.6964209065621584
+    ]
+  },
+  "source_bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+  "source_episode_index": 1,
+  "source_states_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+  "source_task": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+  "task": "t00",
+  "task_goal": [
+    [
+      "in",
+      "alphabet_soup_1",
+      "basket_1_contain_region"
+    ],
+    [
+      "in",
+      "tomato_sauce_1",
+      "basket_1_contain_region"
+    ]
+  ]
+}

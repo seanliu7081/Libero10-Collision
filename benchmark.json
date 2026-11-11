@@ -1,0 +1,396 @@
+{
+  "distribution": "runtime_only",
+  "episode_count": 100,
+  "episodes_per_task": 10,
+  "metric": {
+    "allowed_contact_categories": [
+      "tabletop_support",
+      "target_finger_grasp",
+      "fixture_finger_interaction",
+      "goal_destination_support"
+    ],
+    "collision_free_task_success": "raw_goal_success AND scene_collision_free",
+    "intended_contact_tolerance_m": 0.001,
+    "legacy_monitor": "AddedObstacleCollisionMonitor",
+    "legacy_version": "added-obstacle-contact-v1",
+    "monitor": "SceneCollisionMonitor",
+    "report_separately": [
+      "raw_goal_success",
+      "scene_collision_free",
+      "added_obstacle_collision_free"
+    ],
+    "scope": "scene_inter_object",
+    "scope_exclusions": [
+      "same-owner contacts, including robot self-contact and internal fixture mechanics"
+    ],
+    "support_normal_limit_degrees": 35,
+    "version": "scene-contact-v1"
+  },
+  "name": "Libero10-Collision",
+  "protocol": "GENERATION_PROTOCOL.md",
+  "runtime_provenance": "runtime_provenance.json",
+  "task_count": 10,
+  "task_numbering": "official zero-based LIBERO-10 task_order_index=0; t00 through t09",
+  "tasks": [
+    {
+      "articulated_targets": [],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t00/episodes/ep000/episode.json",
+        "tasks/t00/episodes/ep001/episode.json",
+        "tasks/t00/episodes/ep002/episode.json",
+        "tasks/t00/episodes/ep003/episode.json",
+        "tasks/t00/episodes/ep004/episode.json",
+        "tasks/t00/episodes/ep005/episode.json",
+        "tasks/t00/episodes/ep006/episode.json",
+        "tasks/t00/episodes/ep007/episode.json",
+        "tasks/t00/episodes/ep008/episode.json",
+        "tasks/t00/episodes/ep009/episode.json"
+      ],
+      "language": "put both the alphabet soup and the tomato sauce in the basket",
+      "manipulation_targets": [
+        "alphabet_soup_1",
+        "tomato_sauce_1"
+      ],
+      "official_task_id": 0,
+      "source_task": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+      "task": "t00",
+      "task_goal": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "tomato_sauce_1",
+          "basket_1_contain_region"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t01/episodes/ep000/episode.json",
+        "tasks/t01/episodes/ep001/episode.json",
+        "tasks/t01/episodes/ep002/episode.json",
+        "tasks/t01/episodes/ep003/episode.json",
+        "tasks/t01/episodes/ep004/episode.json",
+        "tasks/t01/episodes/ep005/episode.json",
+        "tasks/t01/episodes/ep006/episode.json",
+        "tasks/t01/episodes/ep007/episode.json",
+        "tasks/t01/episodes/ep008/episode.json",
+        "tasks/t01/episodes/ep009/episode.json"
+      ],
+      "language": "put both the cream cheese box and the butter in the basket",
+      "manipulation_targets": [
+        "cream_cheese_1",
+        "butter_1"
+      ],
+      "official_task_id": 1,
+      "source_task": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+      "task": "t01",
+      "task_goal": [
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "butter_1",
+          "basket_1_contain_region"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [
+        "flat_stove_1_button"
+      ],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t02/episodes/ep000/episode.json",
+        "tasks/t02/episodes/ep001/episode.json",
+        "tasks/t02/episodes/ep002/episode.json",
+        "tasks/t02/episodes/ep003/episode.json",
+        "tasks/t02/episodes/ep004/episode.json",
+        "tasks/t02/episodes/ep005/episode.json",
+        "tasks/t02/episodes/ep006/episode.json",
+        "tasks/t02/episodes/ep007/episode.json",
+        "tasks/t02/episodes/ep008/episode.json",
+        "tasks/t02/episodes/ep009/episode.json"
+      ],
+      "language": "turn on the stove and put the moka pot on it",
+      "manipulation_targets": [
+        "moka_pot_1"
+      ],
+      "official_task_id": 2,
+      "source_task": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+      "task": "t02",
+      "task_goal": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [
+        "white_cabinet_1_bottom_level"
+      ],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t03/episodes/ep000/episode.json",
+        "tasks/t03/episodes/ep001/episode.json",
+        "tasks/t03/episodes/ep002/episode.json",
+        "tasks/t03/episodes/ep003/episode.json",
+        "tasks/t03/episodes/ep004/episode.json",
+        "tasks/t03/episodes/ep005/episode.json",
+        "tasks/t03/episodes/ep006/episode.json",
+        "tasks/t03/episodes/ep007/episode.json",
+        "tasks/t03/episodes/ep008/episode.json",
+        "tasks/t03/episodes/ep009/episode.json"
+      ],
+      "language": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "manipulation_targets": [
+        "akita_black_bowl_1"
+      ],
+      "official_task_id": 3,
+      "source_task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "task": "t03",
+      "task_goal": [
+        [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t04/episodes/ep000/episode.json",
+        "tasks/t04/episodes/ep001/episode.json",
+        "tasks/t04/episodes/ep002/episode.json",
+        "tasks/t04/episodes/ep003/episode.json",
+        "tasks/t04/episodes/ep004/episode.json",
+        "tasks/t04/episodes/ep005/episode.json",
+        "tasks/t04/episodes/ep006/episode.json",
+        "tasks/t04/episodes/ep007/episode.json",
+        "tasks/t04/episodes/ep008/episode.json",
+        "tasks/t04/episodes/ep009/episode.json"
+      ],
+      "language": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "manipulation_targets": [
+        "porcelain_mug_1",
+        "white_yellow_mug_1"
+      ],
+      "official_task_id": 4,
+      "source_task": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+      "task": "t04",
+      "task_goal": [
+        [
+          "on",
+          "porcelain_mug_1",
+          "plate_1"
+        ],
+        [
+          "on",
+          "white_yellow_mug_1",
+          "plate_2"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t05/episodes/ep000/episode.json",
+        "tasks/t05/episodes/ep001/episode.json",
+        "tasks/t05/episodes/ep002/episode.json",
+        "tasks/t05/episodes/ep003/episode.json",
+        "tasks/t05/episodes/ep004/episode.json",
+        "tasks/t05/episodes/ep005/episode.json",
+        "tasks/t05/episodes/ep006/episode.json",
+        "tasks/t05/episodes/ep007/episode.json",
+        "tasks/t05/episodes/ep008/episode.json",
+        "tasks/t05/episodes/ep009/episode.json"
+      ],
+      "language": "pick up the book and place it in the back compartment of the caddy",
+      "manipulation_targets": [
+        "black_book_1"
+      ],
+      "official_task_id": 5,
+      "source_task": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+      "task": "t05",
+      "task_goal": [
+        [
+          "in",
+          "black_book_1",
+          "desk_caddy_1_back_contain_region"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t06/episodes/ep000/episode.json",
+        "tasks/t06/episodes/ep001/episode.json",
+        "tasks/t06/episodes/ep002/episode.json",
+        "tasks/t06/episodes/ep003/episode.json",
+        "tasks/t06/episodes/ep004/episode.json",
+        "tasks/t06/episodes/ep005/episode.json",
+        "tasks/t06/episodes/ep006/episode.json",
+        "tasks/t06/episodes/ep007/episode.json",
+        "tasks/t06/episodes/ep008/episode.json",
+        "tasks/t06/episodes/ep009/episode.json"
+      ],
+      "language": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "manipulation_targets": [
+        "porcelain_mug_1",
+        "chocolate_pudding_1"
+      ],
+      "official_task_id": 6,
+      "source_task": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+      "task": "t06",
+      "task_goal": [
+        [
+          "on",
+          "porcelain_mug_1",
+          "plate_1"
+        ],
+        [
+          "on",
+          "chocolate_pudding_1",
+          "living_room_table_plate_right_region"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t07/episodes/ep000/episode.json",
+        "tasks/t07/episodes/ep001/episode.json",
+        "tasks/t07/episodes/ep002/episode.json",
+        "tasks/t07/episodes/ep003/episode.json",
+        "tasks/t07/episodes/ep004/episode.json",
+        "tasks/t07/episodes/ep005/episode.json",
+        "tasks/t07/episodes/ep006/episode.json",
+        "tasks/t07/episodes/ep007/episode.json",
+        "tasks/t07/episodes/ep008/episode.json",
+        "tasks/t07/episodes/ep009/episode.json"
+      ],
+      "language": "put both the alphabet soup and the cream cheese box in the basket",
+      "manipulation_targets": [
+        "alphabet_soup_1",
+        "cream_cheese_1"
+      ],
+      "official_task_id": 7,
+      "source_task": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+      "task": "t07",
+      "task_goal": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t08/episodes/ep000/episode.json",
+        "tasks/t08/episodes/ep001/episode.json",
+        "tasks/t08/episodes/ep002/episode.json",
+        "tasks/t08/episodes/ep003/episode.json",
+        "tasks/t08/episodes/ep004/episode.json",
+        "tasks/t08/episodes/ep005/episode.json",
+        "tasks/t08/episodes/ep006/episode.json",
+        "tasks/t08/episodes/ep007/episode.json",
+        "tasks/t08/episodes/ep008/episode.json",
+        "tasks/t08/episodes/ep009/episode.json"
+      ],
+      "language": "put both moka pots on the stove",
+      "manipulation_targets": [
+        "moka_pot_1",
+        "moka_pot_2"
+      ],
+      "official_task_id": 8,
+      "source_task": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+      "task": "t08",
+      "task_goal": [
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        [
+          "on",
+          "moka_pot_2",
+          "flat_stove_1_cook_region"
+        ],
+        [
+          "turnon",
+          "flat_stove_1"
+        ]
+      ]
+    },
+    {
+      "articulated_targets": [
+        "microwave_1_microjoint"
+      ],
+      "episode_count": 10,
+      "episode_manifests": [
+        "tasks/t09/episodes/ep000/episode.json",
+        "tasks/t09/episodes/ep001/episode.json",
+        "tasks/t09/episodes/ep002/episode.json",
+        "tasks/t09/episodes/ep003/episode.json",
+        "tasks/t09/episodes/ep004/episode.json",
+        "tasks/t09/episodes/ep005/episode.json",
+        "tasks/t09/episodes/ep006/episode.json",
+        "tasks/t09/episodes/ep007/episode.json",
+        "tasks/t09/episodes/ep008/episode.json",
+        "tasks/t09/episodes/ep009/episode.json"
+      ],
+      "language": "put the yellow and white mug in the microwave and close it",
+      "manipulation_targets": [
+        "white_yellow_mug_1"
+      ],
+      "official_task_id": 9,
+      "source_task": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "task": "t09",
+      "task_goal": [
+        [
+          "in",
+          "white_yellow_mug_1",
+          "microwave_1_heating_region"
+        ],
+        [
+          "close",
+          "microwave_1"
+        ]
+      ]
+    }
+  ],
+  "validation_scope": "Frozen scenes with authoring-time individual grasp/lift and fixture-actuation checks. Full placement, sequential task completion and policy success remain untested.",
+  "version": "1.1.0"
+}

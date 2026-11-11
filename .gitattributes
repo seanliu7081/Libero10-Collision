@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Frozen episode inputs must retain their exact bytes on every platform.
+tasks/** -text
+*.npy binary

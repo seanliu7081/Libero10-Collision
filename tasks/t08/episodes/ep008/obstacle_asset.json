@@ -1,0 +1,13 @@
+{
+  "category": "collision_t08_red_coffee_mug",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "local_scale": [
+    0.96,
+    0.96,
+    1.6
+  ],
+  "method": "diagonal_affine_precompile_mesh_scale",
+  "purpose": "footprint comparable to ep005; original revision-2 height retained",
+  "source_asset": "red_coffee_mug"
+}

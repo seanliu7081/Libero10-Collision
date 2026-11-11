@@ -1,0 +1,13 @@
+{
+  "category": "collision_t08_alphabet_soup",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "local_scale": [
+    1.88,
+    2.8,
+    1.88
+  ],
+  "method": "diagonal_affine_precompile_mesh_scale",
+  "purpose": "footprint comparable to ep005; original revision-2 height retained",
+  "source_asset": "alphabet_soup"
+}

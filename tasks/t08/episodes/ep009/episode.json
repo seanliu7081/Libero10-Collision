@@ -1,0 +1,95 @@
+{
+  "artifact_sha256": {
+    "initial_state.npy": "2fb6f1cf9240bf6bd4f67cc314cfc5cfa792d8541395c8050a6b9a4d74d32869",
+    "obstacle_asset.json": "95daa4f98a8d421d1c025c5b9b6ca836e9ee374de757d8612cb90f7c578a7ed8",
+    "task.bddl": "613dd18561d218bc57596c383ca742879e47a98449b3219bf67b757287eedbc0"
+  },
+  "benchmark": "Libero10-Collision",
+  "checks_passed": true,
+  "distribution": "runtime_only",
+  "episode_id": 9,
+  "initial_observation_sha256": "1a6447fde2904eb656f84bcee93e5e0025bb176735d4328d8cab86ff51cf0766",
+  "language": "put both moka pots on the stove",
+  "layout": {
+    "moka_pot_1_xy": [
+      0.095,
+      0.205
+    ],
+    "moka_pot_1_yaw_delta_deg": -10,
+    "moka_pot_2_xy": [
+      -0.15,
+      0.2
+    ],
+    "moka_pot_2_yaw_delta_deg": 10,
+    "stove_pose": "original fixed source fixture preserved exactly"
+  },
+  "manipulation_targets": [
+    "moka_pot_1",
+    "moka_pot_2"
+  ],
+  "obstacle": {
+    "asset": "alphabet_soup",
+    "dimensions_m": [
+      0.11779883040000069,
+      0.11938598312760026,
+      0.21341166718387328
+    ],
+    "name": "collision_obstacle_1",
+    "source_target": "moka_pot_1"
+  },
+  "official_task_id": 8,
+  "revision": "t08_v1_protocol",
+  "schema_version": 4,
+  "seed": 7,
+  "settle_steps": 10,
+  "settled_object_poses": {
+    "collision_obstacle_1": [
+      0.022541739458534788,
+      0.0033332108628129826,
+      1.0075208279395003,
+      -0.5018337306394425,
+      -0.49813924785751923,
+      0.5029688849481814,
+      0.4970336983650383
+    ],
+    "moka_pot_1": [
+      0.09499992125451193,
+      0.20499939586248367,
+      0.9661058531607807,
+      0.08715574274084457,
+      -1.9558420683723205e-07,
+      -4.610132222561973e-06,
+      0.9961946980816555
+    ],
+    "moka_pot_2": [
+      -0.14999986736935406,
+      0.19999940536389088,
+      0.9661058531607807,
+      -0.08715574275261621,
+      6.079282159492528e-07,
+      -4.574056796312922e-06,
+      0.996194698080626
+    ]
+  },
+  "source_bddl_sha256": "ae1299a707d3e810096ad648948c517de40474bcdacca93a15e17d191e34454a",
+  "source_episode_index": 9,
+  "source_states_sha256": "44f992e911c84a1340589510ecdaf947a4872966f7678c8364d8bb5d13dc4dac",
+  "source_task": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+  "task": "t08",
+  "task_goal": [
+    [
+      "on",
+      "moka_pot_1",
+      "flat_stove_1_cook_region"
+    ],
+    [
+      "on",
+      "moka_pot_2",
+      "flat_stove_1_cook_region"
+    ],
+    [
+      "turnon",
+      "flat_stove_1"
+    ]
+  ]
+}

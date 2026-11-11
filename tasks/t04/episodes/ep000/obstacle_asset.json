@@ -1,0 +1,7 @@
+{
+  "category": "collision_t04_wine_bottle",
+  "collision_and_visual_geometry_scaled_together": true,
+  "density_policy": "unchanged",
+  "source_asset": "wine_bottle",
+  "uniform_scale": 1.55
+}
