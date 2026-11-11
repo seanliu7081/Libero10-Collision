@@ -1,0 +1,11 @@
+include README.md GENERATION_PROTOCOL.md LICENSE THIRD_PARTY_NOTICES.md
+include benchmark.json runtime_provenance.json requirements*.txt
+recursive-include tasks *.json *.bddl *.npy
+recursive-include generation *.json
+recursive-include docs *.md *.yml
+recursive-include tests *.py
+exclude .env
+prune .git
+prune .venv
+prune build
+prune dist

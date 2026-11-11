@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77,<81", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libero10-collision"
+version = "1.2.0"
+description = "Reproducible LIBERO-10 scenes with obstacle variation and scene collision metrics"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{name = "Sean Liu"}]
+keywords = ["robotics", "benchmark", "LIBERO", "collision", "manipulation"]
+dependencies = [
+    "numpy==1.26.4",
+    "mujoco==3.2.6",
+    "robosuite==1.4.1",
+    "bddl==3.6.0",
+    "gym==0.26.2",
+    "cloudpickle==3.1.2",
+    "easydict==1.13",
+    "PyYAML==6.0.3",
+    "matplotlib==3.10.8",
+    "Pillow==12.3.0",
+    "imageio==2.37.2",
+    "numba==0.64.0",
+    "scipy==1.15.3",
+    "opencv-python==4.10.0.84",
+    "PyOpenGL==3.1.10",
+]
+
+[project.optional-dependencies]
+generate = ["torch==2.10.0"]
+test = ["pytest==9.2.0"]
+
+[project.scripts]
+libero10-collision = "libero10_collision.cli:main"
+
+[project.urls]
+Repository = "https://github.com/seanliu7081/Libero10-Collision"
+Issues = "https://github.com/seanliu7081/Libero10-Collision/issues"
+
+[tool.setuptools]
+packages = ["libero10_collision"]
+include-package-data = true

@@ -1,5 +1,5 @@
 {
-  "distribution": "runtime_only",
+  "distribution": "portable_toolkit",
   "episode_count": 100,
   "episodes_per_task": 10,
   "metric": {
@@ -392,5 +392,5 @@
     }
   ],
   "validation_scope": "Frozen scenes with authoring-time individual grasp/lift and fixture-actuation checks. Full placement, sequential task completion and policy success remain untested.",
-  "version": "1.1.0"
+  "version": "1.2.0"
 }

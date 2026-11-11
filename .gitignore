@@ -6,3 +6,12 @@ venv/
 .env.*
 !.env.example
 .DS_Store
+
+# Local builds, checks and generated datasets
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+generated/
+results/

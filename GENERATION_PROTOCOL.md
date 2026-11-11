@@ -1,6 +1,9 @@
 # Libero10-Collision generation protocol
 
-This document defines the frozen runtime benchmark. Authoring scripts, check
+This document defines the frozen benchmark and its scene acceptance criteria.
+For executable reconstruction from public source inputs, see the
+[generation guide](docs/GENERATION.md); begin with the
+[installation guide](docs/INSTALL.md) on a fresh machine. Historical check
 outputs, demonstrations and review pages are not runtime dependencies.
 
 ## Task and episode identity
